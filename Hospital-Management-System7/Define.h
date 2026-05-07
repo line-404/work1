@@ -26,3 +26,4 @@
 //长度
 #define LENTH_ID 4	//工号长度
 #define MENU_BUF_SIZE 10	//菜单输入缓存
+#define MAX_WARD_NURSE 3	//每个病房最多3个护士

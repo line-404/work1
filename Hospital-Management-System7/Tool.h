@@ -1,6 +1,5 @@
 // 工具函数
 #pragma once
-
 #include <stdio.h>
 #include<ctype.h>
 #include <stdbool.h>
