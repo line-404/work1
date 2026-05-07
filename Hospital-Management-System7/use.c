@@ -13,7 +13,7 @@ Doctor_UI() {
 	pdrug p;
 	p=search_druglist();
 	drugrecordrear=outbound_drug(Date);//today
-	modify_doctor(todaylist);//
+	modify_record(todaylist);//
 	search_patient_name();
 }
 

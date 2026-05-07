@@ -439,9 +439,10 @@ void print_hospitalization_bill() {
 
 	
 
-void modify_doctor() {
+void modify_record() {
 	pregistration p;
 	int choice;//用于选择是否继续操作
+	int type;//1是新录入2是修改原有记录
 	int number;//诊疗号
 	char initialrecord[10];//保存最初诊疗记录
 	DoctorNode* doctor; // 医生指针
@@ -449,8 +450,6 @@ void modify_doctor() {
 	do {
 		doctor = Find_Doctor_id(); 
 		number = get_int_range("Please enter the patient visit ID to modify:/n", 1001, 6200);
-
-		p = NULL; 
 		if (doctor != NULL && doctor->schedule_head != NULL) {
 			p = doctor->schedule_head->next_doctor_record; // 直接指向该医生的队列
 			while (p) {
