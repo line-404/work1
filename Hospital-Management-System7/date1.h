@@ -2,9 +2,9 @@
 #include<stdio.h>
 #include<string.h>
 typedef struct {
-	int year;//Äê
-	int month;//ÔÂ
-	int day;//ÈÕ
+	int year;//ï¿½ï¿½
+	int month;//ï¿½ï¿½
+	int day;//ï¿½ï¿½
 	int hour;//Ê±
-	int minute;//·Ö
+	int minute;//ï¿½ï¿½
 }Date1;
