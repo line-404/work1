@@ -2,13 +2,8 @@
 #pragma once
 #include<stdlib.h>
 
-<<<<<<< HEAD
-#define MAX_DEPT 6          // 6个科�?
-#define MAX_WARD 20		//一个护士最多负�?0个病�?
-=======
-#define MAX_DEPT 6          // 6个科�?
-#define MAX_WARD 20		//一个护士最多负�?0个病�?
->>>>>>> 6622c58a0c35621c7c28f9bc86d5ef4aa0e529cb
+#define MAX_DEPT 6          // 6个科室
+#define MAX_WARD 20		//一个护士最多负责20个病房
 
 //文件
 #define DOCTOR_FILE "doctors.txt"
@@ -19,43 +14,15 @@
 // 医生级别
 #define LEVEL_PROF 0        // 教授
 #define LEVEL_CHIEF 1       // 主任医师
-<<<<<<< HEAD
-#define LEVEL_VICE_CHIEF 2  // 副主任医�?
-=======
-#define LEVEL_VICE_CHIEF 2  // 副主任医�?
->>>>>>> 6622c58a0c35621c7c28f9bc86d5ef4aa0e529cb
+#define LEVEL_VICE_CHIEF 2  // 副主任医师
 #define LEVEL_ATTENDING 3   // 主治医师
 #define LEVEL_RESIDENT 4    // 住院医师
 #define LEVEL_INTERN 5      // 实习医师
 
 // 护士级别
-<<<<<<< HEAD
-#define LEVEL_HEAD_NURSE 0  // 护士�?
-#define LEVEL_NURSE 1       // 普通护�?
-=======
-#define LEVEL_HEAD_NURSE 0  // 护士�?
-#define LEVEL_NURSE 1       // 普通护�?
->>>>>>> 6622c58a0c35621c7c28f9bc86d5ef4aa0e529cb
+#define LEVEL_HEAD_NURSE 0  // 护士长
+#define LEVEL_NURSE 1       // 普通护士
 
 //长度
 #define LENTH_ID 4	//工号长度
 #define MENU_BUF_SIZE 10	//菜单输入缓存
-
-
-<<<<<<< HEAD
-#define maxdrugname    100//药品名字最大长�?
-#define maxeffect       100//副作用长�?
-#define maxname       25//姓名字符串长�?    
-#define maxhistory    100//病史字符串长�?   
-#define infile       "F:\\initialpatient.text"//原始文件�?
-#define outfile      "F:\\newpatient.text"    //新存文件�?
-=======
-#define maxdrugname    100//药品名字最大长�?
-#define maxeffect       100//副作用长�?
-#define maxname       25//姓名字符串长�?    
-#define maxhistory    100//病史字符串长�?   
-#define infile       "F:\\initialpatient.text"//原始文件�?
-#define outfile      "F:\\newpatient.text"    //新存文件�?
->>>>>>> 6622c58a0c35621c7c28f9bc86d5ef4aa0e529cb
-#define REG_OUTFILE "F:\\newregistration.text" 
-#define MAX_WARD_NURSE 3 //每个病房最多护士数�
